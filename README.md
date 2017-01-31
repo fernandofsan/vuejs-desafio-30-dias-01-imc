@@ -1,6 +1,6 @@
-# vuejs-desafio-30dias-01-imc
+# vuejs-desafio-30-dias-01-imc
 
-> A Vue.js project
+> Cálculo IMC - Índice de Massa Corporal
 
 ## Build Setup
 
