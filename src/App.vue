@@ -1,28 +1,22 @@
 <template>
   <div id="app">
-    <img src="./assets/logo.png">
-    <hello></hello>
+    <RootHeader></RootHeader>
+    <div class="container">
+      <router-view></router-view>
+    </div>
   </div>
 </template>
 
 <script>
-import Hello from './components/Hello'
+import RootHeader from './components/root/header.vue'
 
 export default {
   name: 'app',
   components: {
-    Hello
+    RootHeader
   }
 }
 </script>
 
-<style>
-#app {
-  font-family: 'Avenir', Helvetica, Arial, sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-  text-align: center;
-  color: #2c3e50;
-  margin-top: 60px;
-}
+<style src="assets/sass/app.scss" lang="sass">
 </style>
